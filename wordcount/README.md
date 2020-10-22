@@ -4,6 +4,10 @@
 
     go install github.com/clarenceh/beam-learn/wordcount
 
+## Login to the correct Google account
+
+    gcloud auth application-default login
+
 ## Run locally
 
     wordcount --input kinglear.txt --output counts
